@@ -1,0 +1,302 @@
+/*
+  Add custom CSS rules here.
+*/
+
+/* You can enable the MavenPro font by uncommenting it below */
+/* Then, you can target is as usual in the CSS. */
+
+/* @font-face {
+    font-family: 'MavenProRegular';
+    src: url('../../fonts/maven/maven_pro_regular-webfont.eot');
+    src: url('../../fonts/maven/maven_pro_regular-webfont.eot?#iefix') format('eot'),
+         url('../../fonts/maven/maven_pro_regular-webfont.woff') format('woff'),
+         url('../../fonts/maven/maven_pro_regular-webfont.ttf') format('truetype'),
+         url('../../fonts/maven/maven_pro_regular-webfont.svg#webfontOM8fITNz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+body {
+	background: #fff !important;
+}
+
+body {
+  background: #fff url('../../images/body_bg2.gif') 0 0 repeat-x;
+}
+
+.page-title {
+  padding:0px 0;
+  margin-top:6px;
+  margin-bottom:16px;
+  border-bottom: 0px solid #cdcdcd;
+  overflow: auto;
+}
+
+.smaller {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  color: #999999;
+  font-weight: normal;
+}
+
+.smaller-link {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 9px;
+  color: #999999 !important;
+  font-weight: normal;
+}
+
+.thick-divider {
+  clear: both;
+  border-top:0px solid #3b3f3f;
+  margin: 0 10px 0px 10px;
+}
+
+#title {
+  position: relative;
+  overflow: auto;
+  text-align:left;
+  margin-top:28px;
+  margin-bottom:16px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.thin-divider {
+  clear: both;
+  border-bottom:0px solid #ccc;
+  margin: 0 10px 0 10px;
+  padding-top: 0px;
+}
+
+.snapshot .ribbon:before, .ribbon:after {
+  content: "";
+  border-top:   0px solid #006e89;   
+  border-left:  3px solid transparent;
+  border-right: 3px solid transparent;
+  position:absolute;
+  bottom: -3px;
+}
+
+.page-content {
+  border-top:0px solid #444747;
+  border-bottom:1px solid #ccc;
+  margin-bottom: 16px;
+  overflow: auto;
+}
+
+.page-close {
+  display:none;
+  position: absolute;
+  right:0px;
+  top:0px;
+  width: 39px;
+  height: 38px;
+  background: url('../../images/close.png');
+  background-position:left top;
+  background-repeat: no-repeat;
+}
+
+#top-menu li a {
+  font-size: 12px;
+  color: #777;
+}
+
+#top-menu {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: 0px;
+}
+
+.gallery-caption {
+  width: 100%;
+  font-size: 12px;
+  color: #444;
+  border-top: 0px solid #bbb;
+  border-bottom: 0px solid #bbb;
+  background: #ffffff;
+}
+
+.gallery-caption div {
+  padding: 20px 0px 0px 0px;
+
+}
+
+#footer {
+  padding:16px 0;
+  border-top:1px solid #ccc;
+}
+
+#title-image {
+  display: block;
+  margin-bottom:16px;
+  float: left;
+}
+
+.projectFrame {
+  padding:14px 0px;
+  margin:0px;
+  background: transparent;
+  color: #373737;
+}
+
+.projectFrame h3  {
+  font-weight: normal;
+  font-size:12px;
+  color:#373737;
+}
+
+.projectDate {
+  color:#373737;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#tags {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 0px;
+}
+
+.image-wrapper {
+  overflow: hidden;
+  clear: both;
+  background: transparent;
+}
+
+.well {
+  min-height: 0px;
+  padding: 0px;
+  margin-bottom: 18px;
+  background: transparent;
+  border: 0px solid #bcbcbc;
+  border: 0px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+
+.snapshot .ribbon {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: rgba(0,0,0,0.5) 0px 0px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform:    rotate(45deg);
+  -ms-transform:     rotate(45deg);
+  -o-transform:      rotate(45deg);
+  position: relative;
+  padding: 7px 0;
+  left: -5px;
+  top: 15px;
+  width: 120px;
+  background-color: #fff;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)); 
+  background-image: -webkit-linear-gradient(top, #fff, #fff); 
+  background-image:    -moz-linear-gradient(top, #fff, #fff); 
+  background-image:     -ms-linear-gradient(top, #fff, #fff); 
+  background-image:      -o-linear-gradient(top, #fff, #fff); 
+  color: #777;
+  -webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 16px 24px;
+  width: 15px;
+  height: 15px;
+  border-bottom: 1px solid #bbb;
+       -moz-box-shadow:  0 1px 2px rgba(0,0,0,0.22);
+  -webkit-box-shadow:  0 1px 2px rgba(0,0,0,0.22);
+          box-shadow:  0 1px 2px rgba(0,0,0,0.22);
+}
+
+.prev {
+  left: 0px;
+  background: #e1e2e3 url('../../images/arrow_left.png')  center no-repeat;
+}
+
+.prev:active, .prev.pressed {
+  background: #afafaf url('../../images/arrow_left_white.png')  center no-repeat;
+  border-bottom: 1px solid #afafaf;
+}
+
+.next {
+  right: 0px;
+  background: #e1e2e3 url('../../images/arrow_right.png')  center no-repeat;
+}
+
+.next:active, .next.pressed {
+  background: #afafaf url('../../images/arrow_right_white.png')  center no-repeat;
+  border-bottom: 1px solid #afafaf;
+}
+
+#ajax-loader {
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background: #fff url('../../images/ajax-loader-white.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1000;
+  -webkit-border-bottom-left-radius: 0px; 
+     -moz-border-radius-bottomleft: 0px; 
+          border-bottom-left-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px; 
+     -moz-border-radius-bottomright: 0px; 
+          border-bottom-right-radius: 0px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; 
+  border-bottom: 1px solid #fff;
+  -webkit-box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.08);
+     -moz-box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.08);
+        box-shadow: inset 0 1px 7px rgba(0, 0, 0, 0.08);
+
+}
+
+.sort-option {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 8px;
+  margin-top:3px;
+  opacity: 0.5;
+  margin: 0 0 0 20px;
+}
+
+.tag {
+  margin: 0 10px;
+  width: 236px;
+}
+
+#outer-container {
+  min-width: 512px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.asset-frame .item {
+  margin:8px 0px;
+  color: #111;
+}
+
+.featured .projectFrame {
+  background: #fff;
+}
